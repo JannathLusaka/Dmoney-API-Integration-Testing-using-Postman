@@ -11,7 +11,7 @@ D-money is a transactional system where user can send money, payment and transac
 - PUT .env file
 - Give following command:
 - ``` npm i ```
-- ``` npm test
+- ``` npm test```
 
 # User Documentation:
 https://documenter.getpostman.com/view/39824465/2sAYBVis3J
