@@ -1,5 +1,18 @@
 # About d-money project
-D-money is a transactional system where user can send money, payment and transaction
+D-money is a transactional system where user can send money, payment and transaction.In this project I have created a postman
+collection based on test cases created from the following scenarios:
+- Admin creates an Agent, 2 random Customers, and a Merchant.
+- Deposit some money from the SYSTEM account to the Agent.
+- System account: SYSTEM (range 10 TK to 10,000 TK)
+- Agent deposits money to one of the Customers.
+- Check the Agent's balance.
+- Then, send money from one Customer to another Customer.
+- Withdraw any amount from a Customer to the Agent (range 10 TK to 10,000 TK).
+- Check the Customer's balance and transaction statement by trnxId.
+- Make a payment from the second Customer to the Merchant.
+- The second Customer checks both balance and transaction statement.
+- The Merchant checks his balance.
+Then I generated a Newman report.
 
 # Technology used:
 - postman
